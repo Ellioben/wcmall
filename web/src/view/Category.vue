@@ -226,7 +226,7 @@ export default {
           parentId: this.category.parentId,
           level: this.category.level,
           sort: this.category.sort,
-          sid: localStorage.getItem('sid')
+          sid: parseInt(localStorage.getItem('sid'), 10),
         }).then((response) => {
           if (response.data.code === 200) {
             ElMessage({message: response.data.message, type: 'success'})

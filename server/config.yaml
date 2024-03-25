@@ -10,7 +10,7 @@ mysql:
 
 # 图片路径配置
 upload:
-  savePath: /Users/zchengo/Downloads/resource/images/
+  savePath: /Users/yongbo/Downloads/resource/images/
   accessUrl: http://localhost:8000/image/
 
 # JWT配置

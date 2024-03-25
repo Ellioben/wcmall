@@ -28,7 +28,8 @@ func GetAppCategory() *AppCategory {
 
 func (c *WebCategory) CreateCategory(context *gin.Context) {
 	var param web.CategoryCreateParam
-	if err := context.ShouldBind(&param); err != nil {
+	err := context.ShouldBind(&param)
+	if err != nil {
 		response.Failed(constant.ParamInvalid, context)
 		return
 	}

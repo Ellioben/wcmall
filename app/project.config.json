@@ -46,15 +46,18 @@
       "outputPath": ""
     },
     "disableUseStrict": false,
-    "useCompilerPlugins": false
+    "useCompilerPlugins": false,
+    "condition": false,
+    "compileWorklet": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wx8cb7b0b879986f63",
+  "appid": "touristappid",
   "projectname": "miniprogram-92",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "simulatorPluginLibVersion": {}
 }
